@@ -1,1 +1,12 @@
-<design-screen />
+<view class="login-page">
+  <image class="login-hero" src="/assets/login-hero.png" mode="aspectFill" />
+  <view class="login-panel">
+    <view class="phone-entry" bindtap="login"><text class="phone-icon">☎</text><view class="grow"><view class="entry-title">本机号码一键授权</view><view class="entry-sub">快速登录，无需手动输入</view></view><text class="arrow">›</text></view>
+    <view class="section-label">请选择您的身份</view>
+    <view class="role farmer {{role==='farmer'?'role-active':''}}" data-role="farmer" bindtap="chooseRole"><text class="role-illustration">👩‍🌾</text><view class="grow"><view class="role-title">我是菜农/合作社</view><view class="role-sub"><view>发布货源，拓宽销路</view><view>对接全国批发商</view></view></view><text class="role-arrow">›</text></view>
+    <view class="role buyer {{role==='buyer'?'role-active':''}}" data-role="buyer" bindtap="chooseRole"><text class="role-illustration">🚛</text><view class="grow"><view class="role-title orange">我是批发商</view><view class="role-sub"><view>寻找优质货源</view><view>建立长期合作</view></view></view><text class="role-arrow orange">›</text></view>
+    <button class="wechat-btn" bindtap="login">微信一键登录</button>
+    <button class="skip-btn" bindtap="skip">跳过登录，直接体验</button>
+    <view class="agreement">✓ 我已阅读并同意<text>用户协议</text>和<text>隐私政策</text></view>
+  </view>
+</view>

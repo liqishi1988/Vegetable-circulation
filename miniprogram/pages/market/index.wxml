@@ -1,1 +1,22 @@
-<design-screen />
+<view class="market-page">
+  <view class="market-hero" bindtap="toSearch"><image src="/assets/market-hero.png" mode="aspectFill" /></view>
+  <view class="market-content">
+    <view class="buyer-seller">
+      <view class="trade-entry buy" bindtap="toList"><text class="entry-icon">🛒</text><view class="grow"><view class="entry-main">我要买菜</view><view class="entry-desc">找货源 询价格  ›</view></view></view>
+      <view class="trade-entry sell" bindtap="toPublish"><text class="entry-icon">🚚</text><view class="grow"><view class="entry-main">我要卖菜</view><view class="entry-desc">发货源 拓渠道  ›</view></view></view>
+    </view>
+    <view class="demand-entry" bindtap="toDemand"><text class="demand-icon">▤</text><view class="grow"><view class="entry-main dark">发布求购</view><view class="entry-desc gray">快速发布采购需求</view></view><text class="circle-arrow">›</text></view>
+    <view class="title-row" bindtap="toTrends"><text class="section-heading">今日行情</text><text>更多 ›</text></view>
+    <view class="quote-grid" bindtap="toTrends">
+      <view class="quote-card"><text>西红柿</text><text class="quote-price">¥2.10<text>/斤</text></text><text class="rise">▲ 3.4%</text><image src="/assets/tomato.png" mode="aspectFill" /></view>
+      <view class="quote-card"><text>黄瓜</text><text class="quote-price">¥1.80<text>/斤</text></text><text class="fall">▼ 2.1%</text><image src="/assets/cucumber.png" mode="aspectFill" /></view>
+      <view class="quote-card"><text>菠菜</text><text class="quote-price">¥1.65<text>/斤</text></text><text class="rise">▲ 5.6%</text><image src="/assets/spinach.png" mode="aspectFill" /></view>
+    </view>
+    <view class="title-row" bindtap="toList"><text class="section-heading">热门现货</text><text>更多 ›</text></view>
+    <view class="hot-grid">
+      <view class="hot-card" bindtap="toDetail"><image src="/assets/tomato.png" mode="aspectFill"/><text>西红柿 · 一级</text><text>¥2.10/斤</text></view>
+      <view class="hot-card" bindtap="toDetail"><image src="/assets/cabbage.png" mode="aspectFill"/><text>大白菜</text><text>¥0.95/斤</text></view>
+      <view class="hot-card" bindtap="toDetail"><image src="/assets/pepper.png" mode="aspectFill"/><text>青椒</text><text>¥1.90/斤</text></view>
+    </view>
+  </view>
+</view>

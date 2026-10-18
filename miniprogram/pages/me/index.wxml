@@ -1,1 +1,6 @@
-<design-screen />
+<app-header title="我的" back="{{false}}" action="⚙" />
+<view class="page me-page">
+  <view class="profile-hero"><image class="profile-bg" src="/assets/store-banner.png" mode="aspectFill"/><view class="profile-mask"></view><view class="profile-content row"><image class="profile-avatar" src="/assets/farmer-avatar.png"/><view class="grow"><view class="profile-name">李国强</view><text>寿光绿源蔬菜基地</text><view class="profile-tags"><text>✓ 已实名认证</text><text>▮ 基地已核验</text></view></view><text class="profile-arrow">›</text></view></view>
+  <view class="card profile-metrics"><view class="metric"><text>累计成交</text><text class="profile-value">86<text class="unit"> 单</text></text></view><view class="metric"><text>履约率</text><text class="profile-value">98%</text></view><view class="metric"><text>好评率</text><text class="profile-value">99%</text></view></view>
+  <view class="menu-list"><view wx:for="{{menus}}" wx:key="title" class="menu-row" data-item="{{item}}" bindtap="open"><text class="menu-icon tone-{{index}}">{{item.icon}}</text><view class="grow"><view class="menu-title">{{item.title}}</view><text class="muted">{{item.sub}}</text></view><text class="menu-arrow">›</text></view></view>
+</view>

@@ -1,4 +1,0 @@
-<view class="design-stage">
-  <image class="design-image" src="{{screen}}" mode="scaleToFill" />
-  <view wx:for="{{hotspots}}" wx:key="index" class="hotspot" style="left:{{item.x}}%;top:{{item.y}}%;width:{{item.w}}%;height:{{item.h}}%;" data-index="{{index}}" bindtap="activate"></view>
-</view>

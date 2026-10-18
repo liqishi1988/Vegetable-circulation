@@ -1,1 +1,13 @@
-<design-screen />
+<app-header title="司机任务" action="•••" />
+<view class="driver-page">
+  <view class="task-status"><text class="case-icon">▣</text><view class="grow"><view>待提货</view><text>请按计划时间到达提货点，完成装车并发车</text></view><text class="arrow">›</text></view>
+  <view class="route-card">
+    <view class="route-point"><text class="pin">●</text><view class="grow"><view>提货点</view><text class="strong">山东 · 寿光</text><text>寿光绿源蔬菜基地</text><text>山东省潍坊市寿光市稻田镇</text></view><button bindtap="navigate">➤ 导航</button></view>
+    <view class="route-point delivery"><text class="pin">●</text><view class="grow"><view>送达点</view><text class="strong">XX农产品批发市场</text><text>山东省济南市</text><text>山东省济南市历城区农产品批发市场</text></view><button bindtap="navigate">➤ 导航</button></view>
+  </view>
+  <view class="goods-card"><image src="/assets/tomato.png" mode="aspectFill"/><view class="grow"><view class="goods-name">西红柿 · 一级　<text class="tag tag-green">品质优良</text></view><view class="goods-weight">约 <text>2</text> 吨</view></view><text class="arrow">›</text></view>
+  <view class="deadline">◷ 要求时间 <text>今天 16:00 前完成装车</text></view>
+  <view class="flow-title">任务流程 <text>（{{step}}/3）</text></view>
+  <view class="flow-card"><view class="flow-row current"><text>1</text><view><view>到达提货点</view><text>到达寿光绿源蔬菜基地，确认现场情况</text></view><text>›</text></view><view class="flow-row"><text>2</text><view><view>上传装车照片</view><text>装车完成后上传装车照片和磅单</text></view><text>›</text></view><view class="flow-row"><text>3</text><view><view>开始运输</view><text>确认装车并发车，开始运输至目的地</text></view><text>›</text></view></view>
+  <button class="driver-action" bindtap="arrive">● 到达提货点</button>
+</view>

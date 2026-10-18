@@ -38,9 +38,22 @@
     "backgroundTextStyle": "light"
   },
   "usingComponents": {
-    "design-screen": "/components/design-screen/index",
+    "app-header": "/components/app-header/index",
     "product-card": "/components/product-card/index",
     "step-bar": "/components/step-bar/index"
+  },
+  "tabBar": {
+    "color": "#667085",
+    "selectedColor": "#0BAA60",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/market/index", "text": "市场", "iconPath": "assets/tabs/market.png", "selectedIconPath": "assets/tabs/market-active.png" },
+      { "pagePath": "pages/publish/index", "text": "发布", "iconPath": "assets/tabs/publish.png", "selectedIconPath": "assets/tabs/publish-active.png" },
+      { "pagePath": "pages/messages/index", "text": "消息", "iconPath": "assets/tabs/messages.png", "selectedIconPath": "assets/tabs/messages-active.png" },
+      { "pagePath": "pages/orders/index", "text": "订单", "iconPath": "assets/tabs/orders.png", "selectedIconPath": "assets/tabs/orders-active.png" },
+      { "pagePath": "pages/me/index", "text": "我的", "iconPath": "assets/tabs/me.png", "selectedIconPath": "assets/tabs/me-active.png" }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

@@ -1,1 +1,8 @@
-<design-screen />
+<app-header title="现货市场" action="⌕" />
+<view class="filter-bar"><view wx:for="{{tabs}}" wx:key="*this" class="filter-item {{active===item?'active':''}}" data-value="{{item}}" bindtap="selectTab">{{item}}⌄</view></view>
+<view class="supply-page">
+  <view class="supply-card" wx:for="{{products}}" wx:key="id" bindtap="toDetail">
+    <view class="supply-main"><image class="supply-photo" src="{{item.image}}" mode="aspectFill"/><view class="supply-info"><view class="supply-name">{{item.name}}</view><view class="supply-price">¥{{item.price}}<text>/斤</text></view><text class="verified">✓ 基地已核验</text><view class="supply-meta">{{item.place}}　预计{{index+1}}天内装车　距离{{28+index*8}}公里</view></view></view>
+    <view class="seller-line"><image src="/assets/farmer-avatar.png"/><text class="grow">{{item.seller}}</text><button class="quote-button" catchtap="toQuote">询价</button></view>
+  </view>
+</view>

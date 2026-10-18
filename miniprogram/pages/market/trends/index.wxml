@@ -1,1 +1,9 @@
-<design-screen />
+<app-header title="今日行情" />
+<view class="page">
+  <view class="card row"><image class="trend-product" src="/assets/tomato.png" mode="aspectFill"/><view class="grow"><view class="section-title">山东寿光｜西红柿⌄</view><text class="muted">切换品种 ›</text></view></view>
+  <view class="grid-2"><view class="card"><text>今日均价</text><view class="price">¥2.06<text class="price-unit"> /斤</text></view></view><view class="card"><text class="accent">较昨日</text><view class="price">+3.2%↑</view></view></view>
+  <view class="card"><view class="trend-tabs"><text class="active">近7天</text><text>近30天</text><text>近3个月</text></view><text class="muted">价格(元/斤)</text><view class="trend-chart"><view class="trend-line"></view><view class="trend-dots"><text>●</text><text>●</text><text>●</text><text>●</text><text>●</text><text>●</text><text>●</text></view></view><view class="x-axis"><text>10/11</text><text>10/12</text><text>10/13</text><text>10/14</text><text>10/15</text><text>10/16</text><text>10/17</text></view></view>
+  <view class="section-title">不同等级参考价</view><view class="card"><view class="list-row between"><text>一级（精品果，≥200g）</text><text class="price-sm">¥2.10–2.30/斤</text></view><view class="list-row between"><text>二级（通货，150–200g）</text><text class="price-sm">¥1.70–1.95/斤</text></view></view>
+  <view class="section-title">附近成交参考</view><view class="card"><view class="list-row between"><text>10月17日 14:20　一级</text><text>2.10　4,000斤</text></view><view class="list-row between"><text>10月17日 11:35　二级</text><text>1.80　3,200斤</text></view><view class="list-row between"><text>10月16日 16:10　一级</text><text>2.00　2,000斤</text></view></view>
+  <view class="notice">● 行情仅供参考，以实际成交为准。</view>
+</view>

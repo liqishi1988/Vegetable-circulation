@@ -31,6 +31,7 @@ page {
 .section-title::before { content: ""; width: 8rpx; height: 36rpx; margin-right: 14rpx; border-radius: 6rpx; background: var(--primary); }
 .muted { color: var(--muted); font-size: 26rpx; }
 .tiny { color: var(--muted); font-size: 24rpx; }
+.strong { font-weight: 700; }
 .price { color: var(--accent); font-size: 48rpx; font-weight: 700; }
 .price-sm { color: var(--accent); font-size: 36rpx; font-weight: 700; }
 .btn { min-height: 90rpx; display: flex; align-items: center; justify-content: center; border-radius: 14rpx; font-weight: 700; font-size: 31rpx; padding: 0 26rpx; border: 2rpx solid transparent; line-height: 1.2; }
@@ -50,7 +51,7 @@ page {
 .chip-wrap { display: flex; flex-wrap: wrap; gap: 16rpx; }
 .chip { min-height: 64rpx; display: inline-flex; align-items: center; padding: 0 24rpx; border-radius: 12rpx; background: #F2F4F7; border: 2rpx solid transparent; }
 .chip.active { color: var(--primary-dark); background: var(--primary-light); border-color: #A7E6C1; }
-.field { min-height: 106rpx; display: grid; grid-template-columns: 180rpx 1fr; gap: 16rpx; align-items: center; border-bottom: 1rpx solid var(--line); }
+.field { min-height: 106rpx; display: grid; grid-template-columns: 180rpx minmax(0,1fr) auto; gap: 16rpx; align-items: center; border-bottom: 1rpx solid var(--line); }
 .field:last-child { border-bottom: 0; }
 .field-label { font-weight: 600; }
 .input { min-height: 72rpx; padding: 0 20rpx; border: 2rpx solid #DDE2E7; border-radius: 10rpx; background: #fff; }

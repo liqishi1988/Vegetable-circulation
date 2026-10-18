@@ -1,0 +1,8 @@
+<view class="header {{light ? 'header-light' : ''}}">
+  <view class="status"><text>9:41</text><text class="signals">▮▮▮  ◉  ▰</text></view>
+  <view class="nav">
+    <view class="side" bindtap="goBack"><text wx:if="{{back}}" class="back">‹</text></view>
+    <text class="title">{{title}}</text>
+    <view class="side right" bindtap="actionTap">{{action}}</view>
+  </view>
+</view>

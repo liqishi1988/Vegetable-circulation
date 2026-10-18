@@ -2,7 +2,7 @@ Component({
   properties: {
     product: { type: Object, value: {} },
     compact: { type: Boolean, value: false },
-    showActions: { type: Boolean, value: true }
+    showActions: { type: Boolean, value: false }
   },
   methods: {
     onDetail() { this.triggerEvent('detail', this.data.product) },

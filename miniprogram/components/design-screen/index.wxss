@@ -1,1 +1,0 @@
-:host{display:block;height:100vh;background:#000}.design-stage{position:relative;width:100%;height:100vh;background:#000;overflow:hidden}.design-image{width:100%;height:100vh;display:block}.hotspot{position:absolute;z-index:5;background:rgba(0,0,0,0)}

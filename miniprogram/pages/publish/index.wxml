@@ -1,1 +1,28 @@
-<design-screen />
+<app-header title="发布现货" light="{{true}}" />
+<view class="publish-page">
+  <step-bar items="{{steps}}" current="{{current}}" />
+  <view class="photo-grid publish-photos">
+    <view class="upload add-photo" bindtap="upload"><text>📷</text><text>添加图片</text></view>
+    <view class="photo-tile">
+      <image src="/assets/tomato.png" mode="aspectFill" /><text class="photo-remove">×</text>
+    </view>
+    <view class="photo-tile">
+      <image src="/assets/spinach.png" mode="aspectFill" /><text class="photo-remove">×</text>
+    </view>
+  </view>
+  <view class="form-card">
+    <view class="form-row"><text>品类</text>
+      <view class="form-value">请选择品类　›</view>
+    </view>
+    <view class="form-row"><text>可售数量</text>
+      <view class="form-value"><input placeholder="请输入可售数量" /> 斤</view>
+    </view>
+    <view class="form-row"><text>单价</text>
+      <view class="form-value"><input placeholder="请输入单价" /> 元/斤</view>
+    </view>
+    <view class="form-row"><text>采收日期</text>
+      <view class="form-value">请选择采收日期　▣</view>
+    </view>
+  </view>
+  <button class="btn btn-primary btn-block publish-next" bindtap="next">下一步</button>
+</view>

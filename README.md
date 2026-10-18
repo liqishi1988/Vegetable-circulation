@@ -1,6 +1,6 @@
 # 菜通达微信小程序 · 1:1 视觉复刻源码 V2
 
-本项目以完整代码版为基础，按照最新提供的 9 组 UI 设计稿重新生成。27 个页面使用设计稿精确视觉资源，并通过 WXML 组件和透明点击热区连接原有 TypeScript 页面路由与操作反馈。
+本项目以微信原生小程序、TypeScript、WXML 和 WXSS 为最终前端技术选型，按照 `miniprogram/design-screens` 中的 27 张设计稿重新实现全部页面。页面主体由真实的 `view`、`text`、`image`、`input`、`picker`、`textarea`、`button` 和业务组件组成，设计稿图片仅作为视觉对照，不参与页面渲染。
 
 ## 使用方法
 
@@ -27,9 +27,11 @@
 
 ## 项目结构
 
-- `miniprogram/design-screens`：从最新设计稿整理的 27 张页面视觉资源
-- `miniprogram/components/design-screen`：1:1 页面视觉层和交互热区组件
-- `miniprogram/pages`：27 个页面路由及原业务逻辑
+- `miniprogram/design-screens`：27 张页面设计基准图，用于尺寸、间距、颜色与内容对照
+- `miniprogram/components/app-header`：统一状态栏和顶部导航
+- `miniprogram/components/product-card`：商品信息卡片
+- `miniprogram/components/step-bar`：发布、认证、订单和售后流程步骤条
+- `miniprogram/pages`：27 个页面的真实 WXML 视图、WXSS 样式及 TypeScript 交互逻辑
 - `miniprogram/assets`：商品、人物、基地、地图、凭证和图标素材
 - `miniprogram/data`：本地演示数据
 

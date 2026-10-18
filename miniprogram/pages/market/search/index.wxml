@@ -1,1 +1,8 @@
-<design-screen />
+<app-header title="搜索货源" />
+<view class="search-page">
+  <view class="search-box"><text>⌕</text><input value="西红柿"/><text class="clear">×</text><button bindtap="search">搜索</button></view>
+  <view class="search-section"><view class="search-title"><text>最近搜索</text><text class="muted">⌫ 清空</text></view><view class="chips"><text wx:for="{{recent}}" wx:key="*this" class="search-chip {{index===0?'active':''}}">{{item}}</text></view></view>
+  <view class="search-section"><view class="search-title">热门搜索</view><view class="chips"><text wx:for="{{hot}}" wx:key="*this" class="search-chip {{index===0?'hot':''}}">{{item}}</text></view></view>
+  <view class="filter-panel"><view class="search-title">筛选条件</view><view wx:for="{{groups}}" wx:key="label" class="filter-row"><view class="filter-label"><text class="filter-icon">{{item.icon}}</text><text>{{item.label}}</text><text class="muted">{{item.unit}}</text></view><view class="chips filter-chips"><text wx:for="{{item.options}}" wx:for-item="option" wx:for-index="oi" wx:key="label" class="search-chip {{option.active?'active':''}}" data-group="{{index}}" data-option="{{oi}}" bindtap="toggle">{{option.label}}</text></view></view></view>
+</view>
+<view class="search-actions"><button class="btn btn-secondary" bindtap="reset">↻ 重置</button><button class="btn btn-primary" bindtap="search">查看 32 个货源 ›</button></view>
