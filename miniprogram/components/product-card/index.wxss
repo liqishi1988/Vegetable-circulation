@@ -1,0 +1,16 @@
+.product-card { display:flex; gap:22rpx; padding:20rpx; margin-bottom:20rpx; border:1rpx solid #EEF0F2; border-radius:22rpx; background:#fff; box-shadow:0 5rpx 20rpx rgba(16,24,40,.045); }
+.product-body { flex:1; min-width:0; }
+.product-name { font-size:32rpx; font-weight:700; }
+.between { display:flex; justify-content:space-between; align-items:center; gap:12rpx; }
+.veg-photo { width:210rpx; height:180rpx; flex:none; border-radius:18rpx; background:#E9F7EF; }
+.price-sm { color:#FF6B22; font-size:38rpx; font-weight:700; margin:5rpx 0; }
+.meta { color:#667085; font-size:22rpx; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:8rpx; }
+.seller { display:flex; align-items:center; gap:12rpx; margin-top:14rpx; color:#344054; font-size:22rpx; }
+.seller image { width:38rpx; height:38rpx; border-radius:50%; }
+.tag { display:inline-flex; padding:4rpx 12rpx; border-radius:12rpx; font-size:20rpx; font-weight:600; white-space:nowrap; }
+.tag-green { color:#087443; background:#E8F8F0; }
+.actions { display:grid; grid-template-columns:1fr 1.35fr; gap:14rpx; margin-top:14rpx; }
+.btn { min-height:68rpx; display:flex; align-items:center; justify-content:center; border-radius:15rpx; font-size:25rpx; font-weight:700; padding:0 12rpx; }
+.btn::after { border:0; }
+.btn-primary { color:#fff; background:#16B364; }
+.btn-secondary { color:#087443; background:#fff; border:2rpx solid #16B364; }

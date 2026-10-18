@@ -1,0 +1,1 @@
+.order-card{padding:20rpx}.seller-line image{width:46rpx;height:46rpx;border-radius:50%}.seller-line{font-weight:700}.order-product{margin:16rpx 0}.order-product>image{width:160rpx;height:132rpx;border-radius:14rpx}.order-qty{font-weight:700;align-self:flex-end}.order-card .actions{margin-top:14rpx}

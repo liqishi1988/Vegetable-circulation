@@ -1,0 +1,1 @@
+<view class="stepbar"><view wx:for="{{items}}" wx:key="*this" class="step-item {{index+1<current?'done':index+1===current?'current':''}}"><view wx:if="{{index<items.length-1}}" class="step-line"></view><view class="step-dot">{{index+1<current?'✓':index+1}}</view><text>{{item}}</text></view></view>

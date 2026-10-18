@@ -1,0 +1,13 @@
+<view class="product-card">
+  <image class="veg-photo" src="{{product.image}}" mode="aspectFill" />
+  <view class="product-body">
+    <view class="between"><text class="product-name">{{product.name}}</text><text class="tag tag-green">✓ 基地已核验</text></view>
+    <view class="price-sm">¥{{product.price}}/斤</view>
+    <view class="meta">{{product.place}}　预计{{product.time}}　距离28公里</view>
+    <view class="seller"><image src="/assets/farmer-avatar.png" mode="aspectFill"/><text>{{product.seller}}</text></view>
+    <view wx:if="{{showActions}}" class="actions">
+      <button class="btn btn-secondary btn-sm" bindtap="onDetail">查看详情</button>
+      <button class="btn btn-primary btn-sm" bindtap="onQuote">询价</button>
+    </view>
+  </view>
+</view>

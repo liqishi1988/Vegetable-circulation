@@ -1,0 +1,1 @@
+.manage-photo{width:220rpx;height:190rpx;border-radius:16rpx}.manage-name{font-size:31rpx;font-weight:700}.manage-meta{display:flex;justify-content:space-between;margin-top:18rpx;color:#667085;font-size:23rpx}.three-actions{display:grid;grid-template-columns:repeat(3,1fr);gap:12rpx;margin-top:18rpx}.three-actions .btn{padding:0 8rpx}

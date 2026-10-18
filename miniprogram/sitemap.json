@@ -1,0 +1,4 @@
+{
+  "desc": "菜通达页面索引",
+  "rules": [{"action": "allow", "page": "*"}]
+}

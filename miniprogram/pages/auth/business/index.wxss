@@ -1,0 +1,1 @@
+.credential{gap:10rpx}.credential image{width:110rpx;height:95rpx;border-radius:10rpx}.license{width:120rpx;height:86rpx;display:flex;align-items:center;justify-content:center;border:2rpx solid #d9b777;color:#8a5a13;background:#fff6df;font-weight:700}

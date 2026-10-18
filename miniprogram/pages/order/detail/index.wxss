@@ -1,0 +1,1 @@
+.page{padding-bottom:34rpx}.card{padding:20rpx}.card>product-card{display:block;margin-top:16rpx}.card>view:first-child{font-size:30rpx}.list-row{min-height:86rpx}.card .price{color:#ff4d17;font-size:38rpx}.avatar{background:#e8f8f0}.actions{margin-top:18rpx}

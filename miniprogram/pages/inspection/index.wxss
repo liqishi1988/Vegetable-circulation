@@ -1,0 +1,1 @@
+.selected-card { border: 3rpx solid var(--primary); background: var(--primary-light); }

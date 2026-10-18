@@ -1,0 +1,1 @@
+.page{padding-bottom:34rpx}.card{padding:20rpx}.card:first-of-type{background:linear-gradient(180deg,#fff8f1,#fff)}.list-row{min-height:86rpx}.actions{position:sticky;bottom:0;padding:14rpx 0;background:#f5f7f6}

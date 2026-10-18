@@ -1,0 +1,47 @@
+{
+  "entryPagePath": "pages/market/index",
+  "pages": [
+    "pages/login/index",
+    "pages/market/index",
+    "pages/publish/index",
+    "pages/messages/index",
+    "pages/orders/index",
+    "pages/me/index",
+    "pages/auth/business/index",
+    "pages/auth/farm/index",
+    "pages/market/supply-list/index",
+    "pages/market/search/index",
+    "pages/market/trends/index",
+    "pages/supply/detail/index",
+    "pages/store/detail/index",
+    "pages/supply/edit/index",
+    "pages/supply/manage/index",
+    "pages/demand/publish/index",
+    "pages/quote/create/index",
+    "pages/quote/detail/index",
+    "pages/trade/confirm/index",
+    "pages/order/detail/index",
+    "pages/fulfillment/loading/index",
+    "pages/fulfillment/tracking/index",
+    "pages/driver/task/index",
+    "pages/inspection/index",
+    "pages/aftersale/create/index",
+    "pages/aftersale/detail/index",
+    "pages/settings/index"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#16B364",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "菜通达",
+    "backgroundColor": "#F5F7F6",
+    "backgroundTextStyle": "light"
+  },
+  "usingComponents": {
+    "design-screen": "/components/design-screen/index",
+    "product-card": "/components/product-card/index",
+    "step-bar": "/components/step-bar/index"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

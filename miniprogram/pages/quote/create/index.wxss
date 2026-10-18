@@ -1,0 +1,1 @@
+.page{padding-bottom:32rpx}.page>product-card{display:block;margin-bottom:18rpx}.card{padding:18rpx 22rpx}.field{min-height:112rpx;grid-template-columns:182rpx 1fr}.field-label{font-size:29rpx}.input{font-size:30rpx}.textarea{margin:14rpx 0;min-height:170rpx}.btn-block{margin-top:28rpx}

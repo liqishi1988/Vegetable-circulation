@@ -1,0 +1,1 @@
+.page{padding-bottom:36rpx}.card{padding:22rpx}.card>.between:first-child{padding-bottom:15rpx;border-bottom:1rpx solid #eee;font-size:31rpx}.list-row{min-height:92rpx}.price-sm{color:#ff4d17}.actions{position:sticky;bottom:0;padding:14rpx 0;background:#f5f7f6}

@@ -1,0 +1,1 @@
+.page{padding-bottom:36rpx}.card{border-radius:18rpx}.field{min-height:112rpx}.field-label{font-size:29rpx}.match-active{border:3rpx solid #ff6b22;background:#fff8f3}.match-active>view:first-child{color:#ff5b11}.btn-block{margin-top:28rpx}
